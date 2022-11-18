@@ -28,9 +28,12 @@ header {
 	background-image: url(../images/bg-hero-desktop.svg);
 	width: 100%;
 	height: 300px;
-	display: flex;
 	margin: -8px;
 
+}
+
+.main-title {
+	display: flex;
 }
 
 .main-logo {
