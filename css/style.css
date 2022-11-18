@@ -1,0 +1,21 @@
+:root {
+	--Very-Pale-Cyan: hsl(193, 100%, 96%);
+	--Very-Dark-Cyan: hsl(192, 100%, 9%);
+	--Grayish-Blue: hsl(208, 11%, 55%);
+	--Pink: hsl(322, 100%, 66%);
+}
+
+@font-face {
+	font-family: bold;
+	src: url(../../assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+	font-family: light;
+	src: url(../../assets/fonts/Poppins/Poppins-ExtraLight.ttf);
+}
+
+@font-face {
+	font-family: regular;
+	src: url(../../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
