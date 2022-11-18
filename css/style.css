@@ -19,3 +19,41 @@
 	font-family: regular;
 	src: url(../../assets/fonts/Poppins/Poppins-Regular.ttf);
 }
+
+main {
+	height: 100vh;
+}
+
+header {
+	background-image: url(../images/bg-hero-desktop.svg);
+	width: 100%;
+	height: 300px;
+	display: flex;
+	margin: -8px;
+
+}
+
+.main-logo {
+	margin: 30px;
+}
+
+.free-try-area {
+	display: flex;
+	flex-grow: 1;
+	justify-content: end;
+	width: 100px;
+	height: 20px;
+	margin: 30px;
+}
+
+.free-try {
+	background-color: white;
+	margin-left: 50px;
+	border-radius: 10px;
+	width: 130px;
+	height: 30px;
+	display: flex;
+	box-shadow: 12px 7px 20px 6px rgb(57 75 84 / 8%);
+	justify-content: center;
+	align-items: center;
+}
