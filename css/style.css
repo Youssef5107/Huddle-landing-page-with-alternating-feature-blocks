@@ -84,3 +84,29 @@ header {
 	width: 100%;
 	height: 500px;
 }
+
+.get-started-bt {
+	margin-top: 20px;
+	background-color: var(--Pink);
+	width: 160px;
+	height: 37px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 0px;
+	border-radius: 30px;
+	font-family: light;
+	font-size: 13px;
+}
+
+.mobile-desktop-img-area {
+	margin: 30px 30px 50px 55px;
+}
+
+.mobile-desktop-img {
+	max-width: 600px;
+	width: 100%;
+	height: 500px;
+
+}
