@@ -29,7 +29,7 @@ header {
 	width: 100%;
 	height: fit-content;
 	margin: -8px;
-	background-color: rgb(218 251 255);
+	background-color: rgb(231 252 255);
 }
 
 .main-title {
@@ -123,15 +123,20 @@ section {
 	height: 280px;
 }
 
+.cards-content-area {}
+
 .card-title {
 	font-size: 24px;
 	font-family: bold;
-	margin-left: 30px;
 }
 
 .card-content {
 	color: var(--Grayish-Blue);
 	margin-top: 15px;
 	max-width: 400px;
-	margin-left: 30px;
+}
+
+.card-img {
+	width: 300px;
+	height: 250px;
 }
