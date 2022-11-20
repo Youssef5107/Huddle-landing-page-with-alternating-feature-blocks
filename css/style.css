@@ -20,6 +20,10 @@
 	src: url(../../assets/fonts/Poppins/Poppins-Regular.ttf);
 }
 
+body {
+	margin: 0px;
+}
+
 main {
 	height: 100vh;
 }
@@ -28,7 +32,6 @@ header {
 	background-image: url(../images/bg-hero-desktop.svg);
 	width: 100%;
 	height: fit-content;
-	margin: -8px;
 	background-color: rgb(231 252 255);
 }
 
@@ -167,6 +170,9 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: relative;
+	top: 60px;
+	border-radius: 10px;
 }
 
 .nav-title {
@@ -174,4 +180,23 @@ nav {
 	font-weight: bold;
 	font-family: bold;
 	margin: 20px auto 0px;
+}
+
+footer {
+	width: 100%;
+	background-color: var(--Very-Dark-Cyan);
+	height: 400px;
+	display: flex;
+}
+
+.help-options-area {
+	display: flex;
+}
+
+.help-option-svg {}
+
+.help-option {}
+
+.social-icons {
+	display: flex;
 }
