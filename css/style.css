@@ -179,6 +179,7 @@ nav {
 	border-radius: 10px;
 }
 
+
 .nav-title {
 	font-size: 20px;
 	font-weight: bold;
@@ -221,7 +222,7 @@ footer {
 	margin: 20px 50px auto 70px;
 }
 
-@media(max-width:800px) {
+@media(max-width:600px) {
 	.main-content-title {
 		margin: 70px auto 20px;
 		text-align: center;
@@ -305,4 +306,27 @@ footer {
 		margin: 15px auto 45px;
 	}
 
+	nav{
+		max-width: 400px;
+		width: 100%;
+		margin: auto ;
+		position: relative;
+		top: 95px;
+	}
+
+	footer{
+		height: fit-content;
+		flex-wrap: wrap;
+		margin-top: 60px;
+	}
+
+	.help{
+		width: 100%;
+		margin: 0px;
+	}
+
+		.help-options-area {
+			display: flex;
+			margin: 25px auto auto 68px;
+		}
 }
