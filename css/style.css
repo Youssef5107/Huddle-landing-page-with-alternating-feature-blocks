@@ -187,16 +187,32 @@ footer {
 	background-color: var(--Very-Dark-Cyan);
 	height: 400px;
 	display: flex;
+	align-items: center;
 }
 
 .help-options-area {
 	display: flex;
+	margin: 25px auto auto 100px;
 }
 
-.help-option-svg {}
+.help-option-svg {
+	margin-right: 20px;
+}
 
-.help-option {}
+.help-option {
+	color: white;
+	max-width: 235px;
+	font-family: light;
+	font-size: 12px;
+}
 
 .social-icons {
 	display: flex;
+}
+
+.help-option2 {
+	color: white;
+	font-family: light;
+	font-size: 12px;
+	margin: 20px 50px auto 70px;
 }
