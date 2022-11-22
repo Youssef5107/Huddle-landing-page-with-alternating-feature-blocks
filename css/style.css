@@ -220,9 +220,10 @@ footer {
 }
 
 .social-icons{
-	width: 30px;
-	height: 30px;
-	background-color: var(--Very-Dark-Cyan);
+	width: 10px;
+	height: 10px;
+	background: transparent;
+	background-color: transparent;
 }
 
 .help-option2 {
