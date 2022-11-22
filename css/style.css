@@ -64,6 +64,10 @@ header {
 	align-items: center;
 }
 
+.free-try:hover {
+	opacity: .8;
+}
+
 .main-content-area {
 	display: flex;
 }
@@ -110,6 +114,10 @@ header {
 	border-radius: 30px;
 	font-family: light;
 	font-size: 13px;
+}
+
+.get-started-bt:hover {
+	opacity: .5;
 }
 
 
@@ -239,6 +247,11 @@ footer {
 	margin-right: 10px;
 	font-size: 15px;
 	padding: 7px 9px;
+}
+
+.social-icon:hover {
+	border: 1px solid var(--Pink);
+	color: var(--Pink);
 }
 
 .help-option2 {
