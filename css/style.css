@@ -218,7 +218,6 @@ footer {
 .footer-social-icons {
 	display: flex;
 	justify-content: end;
-	margin-right: 100px;
 	flex-grow: 1;
 }
 
@@ -240,7 +239,19 @@ footer {
 	margin: 20px 50px auto 70px;
 }
 
-@media(max-width:600px) {
+.end-page-area {
+	display: flex;
+	justify-content: end;
+	height: 100%;
+	align-items: flex-end;
+	max-width: 515px;
+	width: 100%;
+	margin: 0px 30px 20px 0px;
+	color: white;
+}
+
+
+@media(max-width:700px) {
 	.main-content-title {
 		margin: 70px auto 20px;
 		text-align: center;
@@ -346,5 +357,10 @@ footer {
 	.help-options-area {
 		display: flex;
 		margin: 25px auto auto 68px;
+	}
+
+	.footer-social-icons {
+		justify-content: center;
+		margin: 60px 0px 0px 0px;
 	}
 }
